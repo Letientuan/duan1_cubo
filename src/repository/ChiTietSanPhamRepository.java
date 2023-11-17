@@ -6,7 +6,7 @@ package repository;
 
 import Utilities.DBConnection;
 import entity.ChatLieu;
-import entity.ChiTietSanPham;
+import entity.SanPham;
 import entity.DongSP;
 import entity.KichThuoc;
 import entity.MauSac;
@@ -29,9 +29,9 @@ import java.util.List;
  */
 public class ChiTietSanPhamRepository {
 
-    public List<ChiTietSanPham> getAll() {
-        String query = "SELECT MaCTSP\n"
-                + "                 ,sp.Ten\n"
+    public List<SanPham> getAll() {
+        String query = "SELECT MaSP\n"
+                + "                 , Ten\n"
                 + "             ,NSX.Ten\n"
                 + "         ,ms.Ten\n"
                 + "            ,dsp.Ten\n"
@@ -42,23 +42,22 @@ public class ChiTietSanPhamRepository {
                 + "                ,GiaNhap\n"
                 + "               ,GiaBan\n"
                 + "		,Anh\n"
-                + "  from ChiTietSP as ctsp join SanPham as sp on ctsp.MaSP = sp.Ma\n"
-                + "							join ChatLieu as cl on ctsp.MaChatLieu = cl.Ma\n"
-                + "							join MauSac as ms on ctsp.MaMauSac = ms.Ma\n"
-                + "							join DongSP as dsp on ctsp.MaDongSP = dsp.Ma\n"
-                + "							join NSX as nsx on ctsp.MaNsx = nsx.Ma\n"
-                + "							join KichThuoc as kt on ctsp.MaSize = kt.Ma";
+                + "  from SanPham as ctsp join \n "
+                + "join ChatLieu as cl on ctsp.MaChatLieu = cl.Ma\n"
+                + "							join MauSac as ms on ctsp.MaMauSac = ms.MaMau\n"
+                + "							join DongSP as dsp on ctsp.MaDongSP = dsp.MaDongSp\n"
+                + "							join NSX as nsx on ctsp.MaNsx = nsx.MaNSX\n";						
         try (Connection cnn = DBConnection.getConnection(); PreparedStatement ps = cnn.prepareStatement(query)) {
-            List<ChiTietSanPham> listCTSP = new ArrayList<>();
+            List<SanPham> listCTSP = new ArrayList<>();
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                SanPham sanPham = new SanPham(rs.getString(2));
+               
                 NhaSanXuat nhaSanXuat = new NhaSanXuat(rs.getString(3));
                 MauSac mauSac = new MauSac(rs.getString(4));
                 DongSP dongSP = new DongSP(rs.getString(5));
                 ChatLieu chatLieu = new ChatLieu(rs.getString(6));
                 KichThuoc kichThuoc = new KichThuoc(rs.getString(7));
-                listCTSP.add(new ChiTietSanPham(rs.getString(1), sanPham, nhaSanXuat,
+                listCTSP.add(new SanPham(rs.getString(1), sanPham, nhaSanXuat,
                         mauSac, dongSP, chatLieu, kichThuoc, rs.getString(8), rs.getInt(9),
                         rs.getDouble(10), rs.getDouble(11), rs.getString(12)));
             }
@@ -69,7 +68,7 @@ public class ChiTietSanPhamRepository {
         return null;
     }
 
-    public ChiTietSanPham getOne(String id) {
+    public SanPham getOne(String id) {
         String query = "SELECT [MaCTSP]"
                 + "      ,[MaSP]"
                 + "      ,[MaNsx]"
@@ -93,7 +92,7 @@ public class ChiTietSanPhamRepository {
                 DongSP dongSP = new DongSP(rs.getString(6));
                 ChatLieu chatLieu = new ChatLieu(rs.getString(7));
                 KichThuoc kichThuoc = new KichThuoc(rs.getString(8));
-                return new ChiTietSanPham(rs.getString(1), sanPham, nhaSanXuat,
+                return new SanPham(rs.getString(1), sanPham, nhaSanXuat,
                         mauSac, dongSP, chatLieu, kichThuoc, rs.getString(9), rs.getInt(10),
                         rs.getDouble(11), rs.getDouble(12), rs.getString(13));
             }
@@ -103,7 +102,7 @@ public class ChiTietSanPhamRepository {
         return null;
     }
 
-    public void add(ChiTietSanPham ctsp) {
+    public void add(SanPham ctsp) {
         // int check = 0;
         String query = "INSERT INTO [dbo].[ChiTietSP]"
                 + "           ([MaCTSP]"
@@ -138,7 +137,7 @@ public class ChiTietSanPhamRepository {
 
     }
 
-    public boolean update(ChiTietSanPham ctsp, String maCTSP) {
+    public boolean update(SanPham ctsp, String maCTSP) {
         int check = 0;
         String query = "UPDATE [dbo].[ChiTietSP]\n"
                 + "   SET [MaSP] = ?\n"
@@ -185,7 +184,7 @@ public class ChiTietSanPhamRepository {
         return check > 0;
     }
 
-    public ChiTietSanPham getOneTen(String ten) {
+    public SanPham getOneTen(String ten) {
 //        String query = "SELECT Id,IdSP,IdNsx,IdMauSac,IdDongSP,NamBH,MoTa,SoLuongTon,GiaNhap,GiaBan FROM ChiTietSP where Id=?";
 //        try ( Connection cnn = DBConnection.getConnection();  PreparedStatement ps = cnn.prepareStatement(query)) {
 //            ps.setObject(1, ten);
@@ -211,7 +210,7 @@ public class ChiTietSanPhamRepository {
 //        new RepositoryChiTietSanPham().updateSoLuong(ctsp, "AC1FF507-9966-4664-AD5B-4520ADCB7FB0");
 //    }
 
-    public boolean updateSoLuong(ChiTietSanPham ctsp, String ma) {
+    public boolean updateSoLuong(SanPham ctsp, String ma) {
         int check = 0;
         String query = "UPDATE [dbo].[ChiTietSP]"
                 + "   SET"

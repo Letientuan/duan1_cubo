@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9ff4661-1b10-4e32-ab45-54b8bdd1c4df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Utilities/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/ChatLieu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/ChiTietSanPham.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/ChucVu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/DangNhap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/DanhMuc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/DongSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/HoaDon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/HoaDonChiTiet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/KHToanCuc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/KhachHang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/KichThuoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/MauSac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/NhaSanXuat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/NhanVien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/SanPham.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/21-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/785419.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/BackMini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/BanHang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Change PasssWord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Change.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/ChangePass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Database.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Exit mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Find.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Key New.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/KhachHang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/LogOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/New.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Payroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Print Sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Refresh-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Revenue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Screenshot (217).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/ThongKe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/ThongKe1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/ThongKe3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/Thongke2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/User.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/anaheim-angels-2-logo-black-and-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/hoadon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/hoadon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/kisspng-computer-icons-plus-sign-clip-art-plus-sign-5b4bfbdff0b3a7.2950963015317063359859.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/mixerr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/nen0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/nen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/open-box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/toppng.com-shake-back-the-arrow-svg-icon-free-back-arrow-icon-980x984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/iImage/ĐoiTra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/lsevice/Ikhsv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/ChatLieuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/ChiTietSanPhamRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/ChucVuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/DangNhapRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/DanhMucRepository$LabelEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/DanhMucRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/HangRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/KhachHangRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/Lrepo/Ikh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/MauRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/NSXRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/NhanVienRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/SanPhamRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/repository/SizeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ChatLieuSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ChiTietSanPhamSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ChucVuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/DongSPSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/MauSacSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/NSXSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/NhanVienService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/SanPhamSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/ChatLieuImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/ChiTietSanPhamSerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/ChucVuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/DongSPImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/MauSacImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/NSXImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/NhanVienImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/SanPhamSerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/SizeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ServiceImpl/TaiKhoanImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/SizeSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/TaiKhoanInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sevice/khachhangSevice$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sevice/khachhangSevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/BanHang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/BanHang.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChiTietSanPhamView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ChucVuView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/DoiMatKhau$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/DoiMatKhau.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/DoiMatKhau.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/HoaDonView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/HoaDonView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhachHang.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhuyenMai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/KhuyenMai.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/Login2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/NhanVienView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SanPham$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SanPham$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SanPham$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SanPham$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SanPham.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SanPham.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/SizeView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ThongKe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ThongKe$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ThongKe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/ThongKe.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/TrangChu2.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/view/makm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/ChiTietSanPham.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/ChucVu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/DangNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/HoaDonChiTiet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/HoaDonChiTiet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/KichThuoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/SanPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/SanPham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ChiTietSanPhamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ChiTietSanPhamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sevice/ChiTietSanPhamSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sevice/ChiTietSanPhamSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sevice/ServiceImpl/ChiTietSanPhamSerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sevice/ServiceImpl/ChiTietSanPhamSerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ChiTietSanPhamView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ChiTietSanPhamView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2YI3ByPboKiouT2snmqE52xp1RM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9ff4661-1b10-4e32-ab45-54b8bdd1c4df" name="Changes" comment="" />
+      <created>1700199136130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700199136130</updated>
+      <workItem from="1700199138529" duration="9000" />
+    </task>
+    <servers />
+  </component>
+</project>

@@ -12,12 +12,12 @@ public class HoaDonChiTiet {
 
     private Long maHDCTTT;
     private HoaDon maHDCT;
-    private ChiTietSanPham maCTSPCT;
+    private SanPham maCTSPCT;
     private Integer soLuong;
     private Double donGia;
     private String tenSP;
 
-    public HoaDonChiTiet(Long maHDCTTT, HoaDon maHDCT, ChiTietSanPham maCTSPCT, Integer soLuong, Double donGia) {
+    public HoaDonChiTiet(Long maHDCTTT, HoaDon maHDCT, SanPham maCTSPCT, Integer soLuong, Double donGia) {
         this.maHDCTTT = maHDCTTT;
         this.maHDCT = maHDCT;
         this.maCTSPCT = maCTSPCT;
@@ -27,7 +27,7 @@ public class HoaDonChiTiet {
 
    
 
-    public HoaDonChiTiet(ChiTietSanPham maCTSPCT, Integer soLuong, Double donGia, String tenSP) {
+    public HoaDonChiTiet(SanPham maCTSPCT, Integer soLuong, Double donGia, String tenSP) {
         this.maCTSPCT = maCTSPCT;
         this.soLuong = soLuong;
         this.donGia = donGia;
@@ -53,11 +53,11 @@ public class HoaDonChiTiet {
         this.maHDCT = maHDCT;
     }
 
-    public ChiTietSanPham getMaCTSPCT() {
+    public SanPham getMaCTSPCT() {
         return maCTSPCT;
     }
 
-    public void setMaCTSPCT(ChiTietSanPham maCTSPCT) {
+    public void setMaCTSPCT(SanPham maCTSPCT) {
         this.maCTSPCT = maCTSPCT;
     }
 

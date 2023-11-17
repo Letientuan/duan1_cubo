@@ -6,7 +6,7 @@ package view;
 
 import Utilities.DBConnection;
 import entity.ChatLieu;
-import entity.ChiTietSanPham;
+import entity.SanPham;
 import entity.DongSP;
 import entity.KichThuoc;
 import entity.MauSac;
@@ -50,7 +50,7 @@ public class ChiTietSanPhamView extends javax.swing.JPanel {
     private DefaultComboBoxModel<SanPham> dtSP = new DefaultComboBoxModel();
 
     private DefaultTableModel dtm = new DefaultTableModel();
-    private List<ChiTietSanPham> listSanPhamCT = new ArrayList<>();
+    private List<SanPham> listSanPhamCT = new ArrayList<>();
     private ChiTietSanPhamRepository SanPhamService = new ChiTietSanPhamRepository();
     private ChiTietSanPhamSer ctspsi = new ChiTietSanPhamSerImpl();
     private SanPhamSer spser = new SanPhamSerImpl();
@@ -152,10 +152,10 @@ public class ChiTietSanPhamView extends javax.swing.JPanel {
     }
 
     private void loadData() {
-        List<ChiTietSanPham> ctsps = SanPhamService.getAll();
+        List<SanPham> ctsps = SanPhamService.getAll();
         dtm = (DefaultTableModel) tbCTSP.getModel();
         dtm.setRowCount(0);
-        for (ChiTietSanPham x : ctsps) {
+        for (SanPham x : ctsps) {
             Object row[] = new Object[]{
                 x.getMaCTSP(), x.getSanPham().getTenSP(), x.getNsx().getTenNhaSanXuat(), x.getMauSac().getTenMS(), x.getChatLieu().getTenCL(), x.getKichThuoc().getTenKT(), x.getDongSP().getTenDongSP(), x.getMoTa(), x.getSoLuongTon(), x.getGiaNhap(), x.getGiaBan()
             };
@@ -224,7 +224,7 @@ public class ChiTietSanPhamView extends javax.swing.JPanel {
     }
 
     private void fill(int index) {
-        ChiTietSanPham ctsp = listSanPhamCT.get(index);
+        SanPham ctsp = listSanPhamCT.get(index);
         txtMCTSP.setText(ctsp.getMaCTSP());
         txtMota.setText(ctsp.getMoTa());
         txtSoLuong.setText(String.valueOf(ctsp.getSoLuongTon()));
@@ -783,7 +783,7 @@ public class ChiTietSanPhamView extends javax.swing.JPanel {
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
         // TODO add your handling code here:
 
-        ChiTietSanPham ctsp = new ChiTietSanPham();
+        SanPham ctsp = new SanPham();
         List<ChatLieu> ListCL = clImpl.getAll();
         List<NhaSanXuat> ListNSX2 = nsxImpl.getAll();
         List<MauSac> ListMS2 = msImpl.getAll();
@@ -865,7 +865,7 @@ public class ChiTietSanPhamView extends javax.swing.JPanel {
         } else {
 //            ChiTietSanPham ctsp = listSanPhamCT.get(row);
 
-            ChiTietSanPham ctsp = new ChiTietSanPham();
+            SanPham ctsp = new SanPham();
             List<ChatLieu> ListCL = clImpl.getAll();
             List<NhaSanXuat> ListNSX2 = nsxImpl.getAll();
             List<MauSac> ListMS2 = msImpl.getAll();
@@ -947,7 +947,7 @@ public class ChiTietSanPhamView extends javax.swing.JPanel {
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
         // TODO add your handling code here:
         int row = tbCTSP.getSelectedRow();
-        ChiTietSanPham sp = listSanPhamCT.get(row);
+        SanPham sp = listSanPhamCT.get(row);
         if (row < 0) {
             JOptionPane.showMessageDialog(this, "Vui lòng chọn dòng");
         } else {

@@ -5,7 +5,7 @@
 package service;
 
 import entity.ChatLieu;
-import entity.ChiTietSanPham;
+import entity.SanPham;
 import entity.DongSP;
 import entity.KichThuoc;
 import entity.MauSac;
@@ -19,7 +19,7 @@ import java.util.List;
  */
 public interface ChiTietSanPhamSer {
 
-    List<ChiTietSanPham> getAll();
+    List<SanPham> getAll();
 
     List<MauSac> getAllMs();
     
@@ -33,15 +33,15 @@ public interface ChiTietSanPhamSer {
 
     List<KichThuoc> getAllKT();
 
-    ChiTietSanPham getOne(String ma);
+    SanPham getOne(String ma);
 
-    void add(ChiTietSanPham ctsp);
+    void add(SanPham ctsp);
 
-    String update(ChiTietSanPham ctsp, String ma);
+    String update(SanPham ctsp, String ma);
 
     String delete(String ma);
 
-    ChiTietSanPham getOneTen(String ten);
+    SanPham getOneTen(String ten);
 
-    void updateSoLuong(ChiTietSanPham ctsp, String ma);
+    void updateSoLuong(SanPham ctsp, String ma);
 }

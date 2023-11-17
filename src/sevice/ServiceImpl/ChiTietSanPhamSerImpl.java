@@ -5,7 +5,7 @@
 package service.serviceImpl;
 
 import entity.ChatLieu;
-import entity.ChiTietSanPham;
+import entity.SanPham;
 import entity.DongSP;
 import entity.KichThuoc;
 import entity.MauSac;
@@ -25,23 +25,23 @@ public class ChiTietSanPhamSerImpl implements ChiTietSanPhamSer {
     private ChiTietSanPhamRepository ChiTietSPRes = new ChiTietSanPhamRepository();
 
     @Override
-    public List<ChiTietSanPham> getAll() {
+    public List<SanPham> getAll() {
         
         return ChiTietSPRes.getAll();
     }
 
     @Override
-    public ChiTietSanPham getOne(String ma) {
+    public SanPham getOne(String ma) {
         return ChiTietSPRes.getOne(ma);
     }
 
     @Override
-    public void add(ChiTietSanPham ctsp) {
+    public void add(SanPham ctsp) {
         ChiTietSPRes.add(ctsp);
     }
 
     @Override
-    public String update(ChiTietSanPham ctsp, String ma) {
+    public String update(SanPham ctsp, String ma) {
         if (ChiTietSPRes.update(ctsp, ma)) {
             return "Update thành công";
         }
@@ -57,12 +57,12 @@ public class ChiTietSanPhamSerImpl implements ChiTietSanPhamSer {
     }
 
     @Override
-    public ChiTietSanPham getOneTen(String ten) {
+    public SanPham getOneTen(String ten) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void updateSoLuong(ChiTietSanPham ctsp, String ma) {
+    public void updateSoLuong(SanPham ctsp, String ma) {
         ChiTietSPRes.updateSoLuong(ctsp, ma);
     }
 
